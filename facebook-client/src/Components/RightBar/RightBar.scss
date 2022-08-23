@@ -1,0 +1,49 @@
+.sidebarright {
+  width: 360px;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  position: fixed;
+  right: 0;
+}
+.header-title {
+  font-size: 18px;
+  font-weight: bold !important;
+}
+.menu {
+  padding: 5px;
+  margin: 0 5px;
+  position: relative;
+  display: flex;
+}
+.menu:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+.list {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  svg {
+    position: absolute;
+    color: #31a24c;
+    font-size: 13px;
+    top: 29px;
+    left: 25px;
+    border-radius: 50%;
+    background: #fff;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+.list:hover {
+  cursor: pointer;
+  border-radius: 7px;
+}

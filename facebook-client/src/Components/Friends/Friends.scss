@@ -1,0 +1,21 @@
+.Friends {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 #ddd;
+  .Content {
+    div {
+      margin-bottom: 15px;
+      cursor: pointer;
+      img {
+        width: 95%;
+        height: 120px;
+        object-fit: fill;
+        object-position: top;
+        border-radius: 15px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.userInfo {
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 #ddd;
+  .title {
+    font-weight: bold;
+  }
+  button {
+    box-shadow: none;
+    text-transform: none;
+    font-weight: bold;
+    margin: 10px 0;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  svg {
+    color: #8c939d;
+    margin-right: 8px;
+  }
+}
